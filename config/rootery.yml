@@ -1,0 +1,5 @@
+rootery:
+  api_token: "52JlUKCtc3333st1yvmyxWpF4KENUoFT"
+  default_product_image: "http://res.cloudinary.com/https-www-rootery-com-test/image/upload/v1518589503/2018-02-14%2011:55:01%20%2B0530/default_profile_image.png.png"
+  default_currency_symbol: '$'
+  default_retailer_image: 'https://res.cloudinary.com/bzt/image/upload/v1524193054/2018-04-20%2002:57:34%20%2B0000/user_profile_bg.png.png'
