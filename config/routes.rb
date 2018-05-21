@@ -14,8 +14,13 @@ Rails.application.routes.draw do
         end
       end
 
-      resources :interns, only: [:index] do
-
+      resources :interns, only: [:index,:show, :destroy] do
+        collection do
+          post 'create', to: 'interns#create'
+        end
+        member do
+          post 'update', to: 'interns#update'
+        end
       end
 
       resources :supervisors, only: [:index] do
