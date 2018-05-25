@@ -23,10 +23,16 @@ Rails.application.routes.draw do
         end
       end
 
-      resources :supervisors, only: [:index] do
+      resources :supervisors, only: [:index,:show, :destroy] do
         collection do 
           get 'get_all', to: 'supervisors#get_all'
-        end 
+          post 'create', to: 'supervisors#create'
+        end
+
+        member do
+          post 'update', to: 'supervisors#update'
+        end
+
       end
 
     end

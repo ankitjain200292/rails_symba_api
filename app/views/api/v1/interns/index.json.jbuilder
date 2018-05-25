@@ -24,4 +24,4 @@ json.interns (1..2).each do |i|
 
 end
 
-json.count 35
+json.count 70

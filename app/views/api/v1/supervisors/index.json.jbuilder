@@ -15,7 +15,7 @@ json.supervisors (1..2).each do |i|
   json.Address3 'ankit'
   json.City 'ankit'
   json.ProfileImage 'https://res.cloudinary.com/bzt/image/upload/v1499761645/vk7j4qmigbk9m5arwvny.png'
-
+  json.ProfileSlug i.to_s+'-ankit-ankit'
   json.organization do
     json.id 2
   end
