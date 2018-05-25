@@ -11,6 +11,7 @@ Rails.application.routes.draw do
       resources :users, only: [] do
         collection do
           post '/login', to: 'users#login'
+          delete '/logout', to: 'users#logout'
         end
       end
 

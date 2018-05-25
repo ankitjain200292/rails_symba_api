@@ -4,5 +4,9 @@ class Api::V1::UsersController < ApplicationController
 
   end
 
+  def logout
+    render json: true
+  end
+
 
 end
