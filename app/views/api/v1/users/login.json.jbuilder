@@ -1,6 +1,6 @@
 json.UserId 1
 json.sessionToken 'abchdhjowdnsoldndklsnn'
-json.type 'organization'
+json.type 'supervisor'
 json.FirstName 'ankit'
 json.MiddleName 'ankit'
 json.LastName 'ankit'

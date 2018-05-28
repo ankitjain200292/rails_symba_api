@@ -17,7 +17,11 @@ class Api::V1::InternsController < ApplicationController
   end
 
   def destroy
-  render json: true
+    render json: true
+  end
+
+  def intern_list
+
   end
 
 end

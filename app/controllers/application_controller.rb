@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::API
 
-  before_action :check_api_token
+  #before_action :check_api_token
 
   private
 

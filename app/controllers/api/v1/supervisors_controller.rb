@@ -23,5 +23,9 @@ class Api::V1::SupervisorsController < ApplicationController
     render json: true
   end
 
+  def get_projects
+
+  end
+
 
 end

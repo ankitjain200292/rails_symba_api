@@ -18,6 +18,7 @@ Rails.application.routes.draw do
       resources :interns, only: [:index,:show, :destroy] do
         collection do
           post 'create', to: 'interns#create'
+          get 'intern_list', to: 'interns#intern_list'
         end
         member do
           post 'update', to: 'interns#update'
@@ -27,6 +28,7 @@ Rails.application.routes.draw do
       resources :supervisors, only: [:index,:show, :destroy] do
         collection do 
           get 'get_all', to: 'supervisors#get_all'
+          get 'projects', to: 'supervisors#get_projects'
           post 'create', to: 'supervisors#create'
         end
 
