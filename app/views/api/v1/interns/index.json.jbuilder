@@ -1,4 +1,4 @@
-json.interns (1..2).each do |i|
+json.interns (1..15).each do |i|
   json.UserId i
   json.sessionToken 'abchdhjowdnsoldndklsnn'
   json.type 'organization'
