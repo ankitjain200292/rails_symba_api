@@ -38,6 +38,13 @@ Rails.application.routes.draw do
 
       end
 
+      resources :organizations, only: [:index,:show, :destroy] do
+        member do
+          get 'departments', to: 'organizations#get_departments'
+        end
+
+      end
+
     end
   end
 end

@@ -7,6 +7,10 @@ json.LastName 'ankit'
 json.Description 'ankit'
 json.Email 'ankit'
 json.Mobile 'ankit'
+json.IsActive true
+json.DepartmentID 1
+json.StartDate '05/29/2018'
+json.EndDate '05/29/2018'
 
 json.WorkPhone 'ankit'
 json.Address1 'ankit'
