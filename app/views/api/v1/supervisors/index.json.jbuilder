@@ -1,4 +1,4 @@
-json.supervisors (1..15).each do |i|
+json.supervisors (1..20).each do |i|
   json.UserId i
   json.sessionToken 'abchdhjowdnsoldndklsnn'
   json.type 'organization'
